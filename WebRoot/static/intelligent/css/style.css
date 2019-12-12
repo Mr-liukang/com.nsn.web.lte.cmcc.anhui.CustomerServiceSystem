@@ -1,0 +1,128 @@
+/*滚动条 ie不支持*/
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    border: 5px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 1px 1px 5px rgba(223, 224, 229, 1)  inset;/*背景*/
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 20px;
+    background-clip: content-box;
+    box-shadow: 0 0 0 5px rgba(213, 214, 219,0.6) inset;/*把手颜色*/
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+.bs-callout {
+    padding: 10px;
+    margin: 5px 0px;
+    border: 1px solid #eee;
+    /*border-left-width: 5px;*/
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.bs-callout .title {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.bs-callout .title i {
+    margin-right: 7px;
+}
+
+.bs-callout sub {
+    float: right;
+    font-size: smaller;
+    font-style: oblique;
+    display: contents;
+}
+
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+
+.bs-callout code {
+    border-radius: 3px;
+}
+
+.bs-callout ul {
+    margin-bottom: 0px;
+    padding-top: 5px;
+}
+
+.bs-callout li {
+    padding: 3px;
+    font-size: 14px;
+}
+
+/* Tighten up space between multiple callouts */
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+
+/*.bs-callout-info {
+  border-left-color: #1b809e;
+}*/
+.bs-callout-info .title {
+    color: #1b809e;
+}
+
+.bs-label-input {
+    padding: 10px 15px;
+}
+
+.bs-label-input .col-md-6 {
+    padding: 5px 0;
+}
+
+.bs-label-input label {
+    float: left;
+    line-height: 30px;
+}
+
+.bs-label-input input {
+    float: left;
+    width: auto;
+    margin-left: 10px;
+}
+
+.box {
+    margin-bottom: 0;
+    border-top: none;
+}
+
+.text-primary {
+    font-size: 18px;
+}
+
+.nav-tabs>li>a{
+  cursor: pointer;
+}
+
+.laydate-icon {
+    border: none;
+    background: none;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+  font-size: 14px;
+  padding: 3px;
+}
+
+.table-bordered>thead>tr>th {
+    background-color: #3c8dbc;
+    color: #fff;
+}

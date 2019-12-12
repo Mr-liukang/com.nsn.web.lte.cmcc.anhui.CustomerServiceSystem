@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sqlRoot id="">
+	<!-- 终端用户渗透率 -->
+	<sql id="testFromMysql" type="ftl">
+	<![CDATA[
+		SELECT *
+        FROM ay_user
+        WHERE id='6'
+	]]>
+	</sql>
+		<sql id="loadGisCell" type="ftl">
+	<![CDATA[
+		SELECT  
+				b.cell_name,
+				b.cell_wkt
+		FROM  tas_master.cfg_gis_cell_info b 
+		
+	]]>
+	<!-- where cell_id='46011071610163' or cell_id='46011071434291' -->
+	</sql>
+</sqlRoot>

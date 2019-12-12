@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfg_order_id_new>
+
+    <dialogue_result>
+        <order_id>1</order_id>
+        <result>核心网</result>
+        <jump>核心网问题</jump>
+        <advice>建议派单至NOC</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>1</order_id>
+        <result>核心网</result>
+        <jump>发现核心网问题，建议派单至NOC进一步确认。问题核心网名称和地址如下:</jump>
+        <advice>请派单</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>10</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，回复客户需要经后台技术人员确认后才能准确定位并解决问题。</jump>
+        <advice>建议将TOP小区派单至无线中心，给出TOP小区。</advice>
+        <dialogue>您好！您所在区域基站可能由于市政改造或者其他原因而导致出现故障，预计XX时间恢复。给您带来不便，深表歉意！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>10</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，回复客户需要经后台技术人员确认后才能准确定位并解决问题。TOP问题小区如下:</jump>
+        <advice>请派单</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>11</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，回复客户需要经后台技术人员确认后才能准确定位并解决问题。</jump>
+        <advice>建议将TOP小区派单至无线中心，给出TOP小区。</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>11</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，回复客户需要经后台技术人员确认后才能准确定位并解决问题。TOP问题小区如下:</jump>
+        <advice>请派单</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>12</order_id>
+        <result>核心网</result>
+        <jump>核心网问题</jump>
+        <advice>给出top核心网元，建议派单至NOC</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>12</order_id>
+        <result>核心网</result>
+        <jump>发现核心网问题，建议派单至NOC进一步确认。问题核心网名称和地址如下:</jump>
+        <advice>请派单</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>14</order_id>
+        <result>DNS服务器问题</result>
+        <jump>DNS服务器故障</jump>
+        <advice>建议处理DNS服务器问题</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>14</order_id>
+        <result>DNS服务器问题</result>
+        <jump>发现DNS服务器故障，建议派单至NOC进一步确认。问题DNS服务器地址如下:</jump>
+        <advice>请派单</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>15</order_id>
+        <result>无理由申诉</result>
+        <jump>无理由申诉</jump>
+        <advice>该用户为无理由申诉，建议用户到营业厅进行处理。</advice>
+        <dialogue>您好！您的问题可能是手机终端或卡的问题，建议您至营业厅进行机卡交叉测试。给您带来什么不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>16</order_id>
+        <result>sp问题</result>
+        <jump>发现用户存在SP网站质量问题，回复客户需要经后台技术人员确认后才能准确定位并解决问题。</jump>
+        <advice>给出TOP问题SP，建议经后台技术人员确认后，向用户反馈并建议其使用其他SP作为替代或到该SP网站下投诉解决。</advice>
+        <dialogue>对不起！您反映的问题为sp网站线路问题导致，请到sp网站的页面客服下进行投诉处理。给您带来的不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>16</order_id>
+        <result>sp问题</result>
+        <jump>发现用户存在SP网站质量问题，回复客户需要经后台技术人员确认后才能准确定位并解决问题。建议派单至NOC进一步确认。问题SP名称和地址如下:</jump>
+        <advice>请派单</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>17</order_id>
+        <!--<result>用户</result>-->
+        <result>无线原因（个别用户）</result>
+        <!--<jump>用户原因</jump>-->
+        <jump>无线原因（个别用户）</jump>
+        <advice>建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</advice>
+        <dialogue>您好！您的问题可能是手机终端或卡的问题，建议您至营业厅进行机卡交叉测试。给您带来什么不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>17</order_id>
+        <!--<result>用户</result>-->
+        <result>无线原因（个别用户）</result>
+        <jump>发现用户自身问题，建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</jump>
+        <advice>建议用户重启手机或者拔插SIM卡或机卡交叉测试解决</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>18</order_id>
+        <result>ipran a问题</result>
+        <jump>ipran a问题</jump>
+        <advice></advice>
+        <dialogue></dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>19</order_id>
+        <result>ipran b问题</result>
+        <jump>ipran b问题</jump>
+        <advice></advice>
+        <dialogue></dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>2</order_id>
+        <result>用户</result>
+        <jump>用户欠费</jump>
+        <advice></advice>
+        <dialogue></dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>20</order_id>
+        <result>NAT问题</result>
+        <jump>NAT问题</jump>
+        <advice>给出NAT名称，建议派单至NOC</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>20</order_id>
+        <result>NAT问题</result>
+        <jump>发现NAT问题，建议派单至NOC进一步确认。问题NAT名称和地址如下:</jump>
+        <advice>请派单</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>21</order_id>
+        <result>NAT以上问题</result>
+        <jump>NAT以上问题</jump>
+        <advice>NAT问题，建议派单至NOC</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>21</order_id>
+        <result>NAT以上问题</result>
+        <jump>发现NAT以上问题，建议派单至NOC进一步确认。问题NAT名称和地址如下:</jump>
+        <advice>请派单</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>22</order_id>
+        <result>检测正常</result>
+        <jump>数据检测正常。</jump>
+        <advice></advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>23</order_id>
+        <result>用户限速</result>
+        <jump>发现用户已被限速，很可能是流量超出套餐流量导致达量限速。限速速率如下:</jump>
+        <advice>如果用户想恢复上网速率，建议用户额外购买流量包。</advice>
+        <dialogue>您好！您的问题是您已超出套餐内的畅享流量，建议您购买额外流量包并重启手机恢复上网速率。给您带来什么不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>24</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，并匹配到盲点库，请根据处理建议回复用户。</jump>
+        <advice>匹配到盲点库，情况如下：</advice>
+        <dialogue></dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>24</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，并匹配到盲点库，请根据处理建议回复用户，如用户不认可则派单。</jump>
+        <advice>查询到用户所在的区域访问网络人数较多，建议用户稍后再试。</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>25</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，并匹配到盲点库，请根据处理建议回复用户。</jump>
+        <advice>匹配到盲点库，情况如下：</advice>
+        <dialogue></dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>25</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，并匹配到盲点库，请根据处理建议回复用户，如用户不认可则派单。</jump>
+        <advice>查询到用户所在的区域覆盖较差，建议回复：我司人员正在优化中，请耐心等待一段时间！</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>26</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，并匹配到盲点库，请根据处理建议回复用户。</jump>
+        <advice>匹配到盲点库，情况如下：</advice>
+        <dialogue></dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>26</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，并匹配到盲点库，请根据处理建议回复用户，如用户不认可则派单。</jump>
+        <advice>查询到用户所在的区域出现了基站故障，预计2小时内恢复。</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>27</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，未匹配到盲点库，请根据处理建议回复用户。</jump>
+        <advice>未匹配到盲点库，建议派单给分公司。</advice>
+        <dialogue></dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>27</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，未匹配到盲点库，请根据处理建议回复用户。</jump>
+        <advice>未匹配到盲点库，请使用“盲点库”工具，询问用户问题发生位置，查询获取位置后，重新点击“查询”</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>4</order_id>
+        <result>终端</result>
+        <jump>用户关闭4G数据业务或终端问题</jump>
+        <advice>建议用户打开4G数据开关或更换终端。</advice>
+        <dialogue>您好！您的问题可能是手机设置或手机终端的问题，建议您打开手机上4G数据服务开关或至营业厅进行机卡交叉测试。给您带来什么不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>4</order_id>
+        <result>终端</result>
+        <jump>发现用户关闭4G数据业务或终端自身问题，建议用户打开4G数据开关或更换终端。</jump>
+        <advice>建议用户打开4G数据开关或更换终端</advice>
+        <dialogue>您好！您的问题可能是手机设置或手机终端的问题，建议您打开手机上4G数据服务开关或至营业厅进行机卡交叉测试。给您带来什么不便，请谅解！</dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>5</order_id>
+        <result>用户</result>
+        <jump>用户配置（PDN）</jump>
+        <advice>建议用户调整APN设置</advice>
+        <dialogue>您好！您的问题可能是手机终端或卡的问题，建议您至营业厅进行APN设置的重置。给您带来什么不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>5</order_id>
+        <result>用户</result>
+        <jump>发现用户APN配置存在问题，建议用户到附近营业厅找相关人员进行检测调整。</jump>
+        <advice>建议用户到附近营业厅找相关人员进行检测调整APN设置</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+
+    <dialogue_result>
+        <order_id>6</order_id>
+        <result>终端</result>
+        <jump>终端问题</jump>
+        <advice>建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</advice>
+        <dialogue>您好！您的问题可能是手机终端或卡的问题，建议您至营业厅进行机卡交叉测试。给您带来什么不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>6</order_id>
+        <result>终端</result>
+        <jump>发现用户的终端问题，建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</jump>
+        <advice>建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</advice>
+        <dialogue>您好！您的问题可能是手机终端或卡的问题，建议您至营业厅进行机卡交叉测试。给您带来什么不便，请谅解！</dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>7</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，回复客户需要经后台技术人员确认后才能准确定位并解决问题。</jump>
+        <advice>建议将TOP小区派单至无线中心，给出TOP小区。</advice>
+        <dialogue>您好！您所在区域基站可能由于市政改造或者其他原因而导致出现故障，预计XX时间恢复。给您带来不便，深表歉意！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>8</order_id>
+        <result>无线问题</result>
+        <jump>发现用户存在无线质量问题，回复客户需要经后台技术人员确认后才能准确定位并解决问题。</jump>
+        <advice>建议将TOP小区派单至无线中心，给出TOP小区。</advice>
+        <dialogue>对不起！您反映的问题我们已记录，工作人员会尽快和您联系。给您带来的不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>9</order_id>
+        <result>终端</result>
+        <jump>终端原因</jump>
+        <advice>建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</advice>
+        <dialogue>您好！您的问题可能是手机终端或卡的问题，建议您至营业厅进行机卡交叉测试。给您带来什么不便，请谅解！</dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+
+    <dialogue_result>
+        <order_id>9</order_id>
+        <result>终端</result>
+        <jump>发现用户的终端问题，建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</jump>
+        <advice>建议用户重启手机或者拔插SIM卡或机卡交叉测试解决</advice>
+        <dialogue>您好！您的问题可能是手机终端或卡的问题，建议您至营业厅进行机卡交叉测试。给您带来什么不便，请谅解！</dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+    <!-- add by liukang 北京用户问题新的判断方法 begin...-->
+    <dialogue_result>
+        <order_id>28</order_id>
+        <result>用户</result>
+        <jump>发现用户自身问题，建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</jump>
+        <advice>建议用户重启手机或者拔插SIM卡或机卡交叉测试解决</advice>
+        <dialogue></dialogue>
+        <out_code>0</out_code>
+    </dialogue_result>
+    <dialogue_result>
+        <order_id>28</order_id>
+        <result>用户</result>
+        <jump>发现用户自身问题，建议用户重启手机或者拔插SIM卡或机卡交叉测试解决。</jump>
+        <advice>建议用户重启手机或者拔插SIM卡或机卡交叉测试解决</advice>
+        <dialogue></dialogue>
+        <out_code>1</out_code>
+    </dialogue_result>
+    <!-- add by liukang 北京用户问题新的判断方法 begin...-->
+</cfg_order_id_new>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<threshold>
+
+    <threshold_content>
+        <first_detail_terminal>0.55</first_detail_terminal>
+        <first_detail_wireless>0.55</first_detail_wireless>
+        <first_detail_sp>0.85</first_detail_sp>
+       <!-- <first_detail_sp>0.70</first_detail_sp>-->
+        <!-- 0.65-->
+        <first_detail_users>0.55</first_detail_users>
+
+        <detail_terminal>0.2</detail_terminal>
+        <!--<detail_wireless>0.3</detail_wireless>-->
+        <detail_wireless>0.15</detail_wireless>
+       <!-- <detail_sp>0.3</detail_sp>-->
+        <detail_sp>0.1</detail_sp>
+        <detail_users>0.15</detail_users>
+
+        <section_terminal>0.2</section_terminal>
+        <section_wireless>0.15</section_wireless>
+        <section_sp>0.1</section_sp>
+        <section_users>0.15</section_users>
+
+        <radio_and_user>0.2</radio_and_user>
+
+    </threshold_content>
+
+</threshold>

@@ -1,0 +1,15 @@
+package com.js.ctc.customerserversupport.service;
+
+import java.util.List;
+import java.util.Map;
+
+public interface RedisServiceI {
+    //testRedis
+    public String testRedis();
+    //查询告警
+    public List<Map<String,Object>> getAlarmInfo(String key);
+
+    //保存告警
+    public void setAlarmInfo(String key);
+
+}
