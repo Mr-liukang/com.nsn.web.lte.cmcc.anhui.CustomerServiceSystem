@@ -29,8 +29,8 @@ public class HBaseUtil {
     	// 这个文件也是从远程服务器上copy下来的
     	//System.setProperty("java.security.krb5.conf","/etc/krb5.conf");
         conf = HBaseConfiguration.create();
-       System.out.println(conf.get("hbase.zookeeper.quorum"));
-     /*   conf.set("hadoop.security.authentication","Kerberos");
+        System.out.println(conf.get("hbase.zookeeper.quorum"));
+       /* conf.set("hadoop.security.authentication","Kerberos");
         // 这个hbase.keytab也是从远程服务器上copy下来的, 里面存储的是密码相关信息
         // 这样我们就不需要交互式输入密码了
         conf.set("keytab.file","/weblogic/npodo.keytab");

@@ -201,11 +201,11 @@ public class DateFromHbase {
 	     * @param map
 	     * @return
 	     */
-	    public List<Map<String, Object>> getDataFromHbaseDetail(String sdate,String phone,String table,int index) {
+	    public List<Map<String, Object>> getDataFromHbaseDetail(String sdate,String edate,String phone,String table,int index) {
 	        List<Map<String, Object>> allHbaseData = new ArrayList<Map<String, Object>>();
 	        Map<String, Object> map = new HashMap<>();
 			try {
-				map = requestParamProcessSecondline(sdate,sdate,phone,"0","","");
+				map = requestParamProcessSecondline(sdate,edate,phone,"0","","");
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -231,11 +231,11 @@ public class DateFromHbase {
      * @param map
      * @return
      */
-    public List<Map<String, Object>> getHttpSpecDetail(String sdate,String phone,String table) {
+    public List<Map<String, Object>> getHttpSpecDetail(String sdate,String edate,String phone,String table) {
         List<Map<String, Object>> allHbaseData = new ArrayList<Map<String, Object>>();
         Map<String, Object> map = new HashMap<>();
 		try {
-			map = requestParamProcessSecondline(sdate,sdate,phone,"0","","");
+			map = requestParamProcessSecondline(sdate,edate,phone,"0","","");
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -260,11 +260,11 @@ public class DateFromHbase {
      * @param map
      * @return
      */
-    public List<Map<String, Object>> getS1mmSpecDetail(String sdate,String phone,String table) {
+    public List<Map<String, Object>> getS1mmSpecDetail(String sdate,String edate,String phone,String table) {
         List<Map<String, Object>> allHbaseData = new ArrayList<Map<String, Object>>();
         Map<String, Object> map = new HashMap<>();
 		try {
-			map = requestParamProcessSecondline(sdate,sdate,phone,"0","","");
+			map = requestParamProcessSecondline(sdate,edate,phone,"0","","");
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -349,14 +349,14 @@ public class DateFromHbase {
             }
 
             System.out.println(
-                     "555555*****************5555555555+rList "+rList.size()
+                     "getHbaseData---> "+rList.size()
                              +"数据查询表：table=" + tableName
                              + "  startRowKey=" + startRowKey
                              + "  endRowKey=" + endRowKey);
             return rList;
         } catch ( Exception e ) {
         	 System.out.println("没有表头的数据查询异常：table=" + tableName + "  startRowKey=" + startRowKey + "  endRowKey=" + endRowKey
-                     +"555555*****************5555555555+rList"+rList);
+                     +"getHbaseData---> "+rList);
         } finally {
             if (null != scanner)
                 scanner.close();
